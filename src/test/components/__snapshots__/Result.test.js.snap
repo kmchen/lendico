@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results component should render Results component 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-cardGrid-1"
+  maxWidth="sm"
+>
+  <WithStyles(ForwardRef(Card))
+    className="makeStyles-card-2"
+  >
+    <WithStyles(ForwardRef(CardContent))
+      className="makeStyles-cardContent-3"
+    >
+      <WithStyles(ForwardRef(Typography))>
+        Monthly Installment: 2
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+</WithStyles(ForwardRef(Container))>
+`;

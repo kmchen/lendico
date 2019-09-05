@@ -1,0 +1,28 @@
+version: '2.2'
+services:
+  web:
+    container_name: web
+    build: .
+    networks:
+      - net
+    ports:
+      - "9002:9002"
+  server:
+    container_name: server
+    build: ./server
+    networks:
+      - net
+    ports:
+      - "9001:9001"
+  proxy:
+    build: ./proxy
+    ports:
+      - "9000:9000"
+    networks:
+      - net
+    depends_on:
+      - web
+      - server
+
+networks:
+  net:

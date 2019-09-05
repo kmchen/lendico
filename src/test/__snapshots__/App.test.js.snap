@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render App component 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <CssBaseline />
+  <NavBar />
+  <main>
+    <SearchBar
+      amountChange={[Function]}
+      durationChange={[Function]}
+      getMonthlyInstallment={[Function]}
+    />
+    <Result
+      monthlyInstallment="1"
+    />
+  </main>
+  <Footer />
+</div>
+`;

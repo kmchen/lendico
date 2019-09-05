@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar component should render SearchBar component 1`] = `
+<div
+  className="makeStyles-heroContent-3"
+>
+  <WithStyles(ForwardRef(Container))
+    maxWidth="sm"
+  >
+    <div
+      className="makeStyles-root-1"
+    >
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        className="makeStyles-textField-2"
+        defaultValue="1"
+        error={false}
+        id="standard-number"
+        label="Amount"
+        margin="normal"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value={1}
+      />
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        className="makeStyles-textField-2"
+        defaultValue="1"
+        error={false}
+        id="standard-number"
+        label="Duration"
+        margin="normal"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value={1}
+      />
+      <WithStyles(ForwardRef(Button))
+        component="span"
+        disabled={false}
+        onClick={[MockFunction]}
+        variant="contained"
+      >
+        OK
+      </WithStyles(ForwardRef(Button))>
+    </div>
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;
