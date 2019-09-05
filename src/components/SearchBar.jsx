@@ -61,7 +61,6 @@ function SearchBar({ durationChange, amountChange, getMonthlyInstallment }) {
             }}
             margin="normal"
             error={hasAmountError}
-            defaultValue="1"
           />
           <TextField
             required
@@ -76,7 +75,6 @@ function SearchBar({ durationChange, amountChange, getMonthlyInstallment }) {
             }}
             margin="normal"
             error={hasDurationError}
-            defaultValue="1"
           />
           <Button
             disabled={hasAmountError || hasDurationError}

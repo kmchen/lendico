@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const backendUrl = 'http://localhost:9000/installment-monthly';
+const backendUrl = 'http://0.0.0.0:9000/installment-monthly';
 
 export default async function getMonthlyInstallment(payload) {
   let response;
